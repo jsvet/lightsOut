@@ -1,0 +1,8 @@
+#stage{
+	border:solid 1em #006699;
+}
+
+#game-assets{
+	position:absolute;
+	left:-2000em;
+}
