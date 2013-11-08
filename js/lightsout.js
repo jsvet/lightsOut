@@ -196,8 +196,8 @@ Game.levelOver = function(){
 Game.showNextLevelBtn = function (){
 	var btn = new createjs.Text("NEXT LEVEL >>", "18px Arial", "#FFF"),
 		hitarea = new createjs.Shape(),
-		hitW = btn.getMeasuredWidth(),
-		hitH = btn.getMeasuredHeight(),
+		hitW = btn.getMeasuredWidth() * 2,
+		hitH = btn.getMeasuredHeight() * 2,
 		hitX,
 		hitY;
 	
